@@ -185,7 +185,7 @@ img {
   width: 100%;
   position: fixed;
   top : 0px;
-  z-index: ;
+  z-index: 1;
 }
 #mu-menu .navbar-header .navbar-brand {
   color: #fff;
