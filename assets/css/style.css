@@ -185,7 +185,7 @@ img {
   width: 100%;
   position: fixed;
   top : 0px;
-  z-index: 1;
+  z-index: ;
 }
 #mu-menu .navbar-header .navbar-brand {
   color: #fff;
@@ -577,26 +577,26 @@ img {
   width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
-  border-right: 2px solid #888;
+  border-right: 5px solid #111;
   display: inline;
   float: left;
   text-align: center;
   width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single span {
-  color: #fff;
+  color: #dc3545;
   display: inline-block;
   font-size: 50px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
-  color: #fff;
+  color: rgb(206, 79, 79);
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 20px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single p {
-  color: #fff;
+  color: rgb(233, 233, 233);
   font-size: 18px;
   text-transform: uppercase;
 }
