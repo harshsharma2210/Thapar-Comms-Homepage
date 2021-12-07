@@ -183,9 +183,12 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  position: fixed;
+  top : 0px;
+  z-index: 100;
 }
 #mu-menu .navbar-header .navbar-brand {
-  color: #333;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
   font-weight: bold;
@@ -200,7 +203,7 @@ img {
   margin-left: 4px;
 }
 #mu-menu .navbar-default {
-  background-color: #fff;
+  background-color: #dc3545;
   border-radius: 0;
   border-left: none;
   border-right: none;
@@ -208,6 +211,7 @@ img {
 }
 #mu-menu .navbar-default .navbar-nav li > a {
   border-bottom: 2px solid transparent;
+  color: #fff;
   padding-bottom: 25px;
   padding-top: 25px;
   margin-bottom: -1px;
@@ -217,6 +221,7 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 #mu-menu .navbar-default .navbar-nav li #mu-search-icon:hover, #mu-menu .navbar-default .navbar-nav li #mu-search-icon:focus {
   border: none;
 }
@@ -224,12 +229,12 @@ img {
   border-radius: 0px;
 }
 #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a {
-  color: #333333;
+  color: black ;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover, #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
-  color: #fff;
+  color: black;
 }
 #mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus {
   color: #fff;
@@ -572,26 +577,26 @@ img {
   width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
-  border-right: 2px solid #888;
+  border-right: 5px solid #111;
   display: inline;
   float: left;
   text-align: center;
   width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single span {
-  color: #fff;
+  color: #dc3545;
   display: inline-block;
   font-size: 50px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
-  color: #fff;
+  color: rgb(206, 79, 79);
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 20px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single p {
-  color: #fff;
+  color: rgb(233, 233, 233);
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -802,6 +807,11 @@ img {
   padding: 100px 0;
   width: 100%;
 }
+.mu-our-teacher-social button{
+  width: 30% !important;
+  padding: 10px;
+  border-radius: 5px ;
+}
 #mu-our-teacher .mu-our-teacher-area {
   display: inline;
   float: left;
@@ -834,6 +844,12 @@ img {
   position: relative;
   float: left;
   width: 100%;
+}
+.mu-our-teacher-img img{
+  width: 100% !important;
+  height: 400px !important;
+  overflow: hidden !important;
+  clear: both  !important;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img img {
   width: 100%;
@@ -2494,4 +2510,15 @@ img {
   #mu-error .mu-error-area h2 {
     font-size: 100px;
   }
+}
+
+.tt{
+  width: 70%;
+  margin: auto;
+}
+.card-header{
+  margin-bottom: 40px;
+}
+#pr{
+  font-size: 2.2rem;
 }
