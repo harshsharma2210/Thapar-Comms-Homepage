@@ -1062,6 +1062,7 @@ img {
 }
 .mu-blog-single-item .mu-blog-single-img a img {
   width: 100%;
+  height: 200px;
 }
 .mu-blog-single-item .mu-blog-single-img .mu-blog-caption {
   display: inline;
